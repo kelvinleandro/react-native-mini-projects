@@ -16,28 +16,36 @@ export default function App() {
       <View style={styles.loaderWrapper}>
         <ContentLoader
           speed={2}
-          height={175}
-          viewBox={`0 0 ${width} 175`}
+          height={200}
+          viewBox={`0 0 ${width} 200`}
           backgroundColor="#eae9e7"
           foregroundColor="#f3f3f3"
           style={{ width: "100%" }}
         >
-          <Circle cx="50" cy="38" r="38" />
+          <Circle cx="53" cy="38" r="38" />
           <Rect x="95" y="5" rx="4" ry="4" width="30%" height="14" />
           <Rect x="95" y="25" rx="4" ry="4" width="40%" height="14" />
           <Rect x="95" y="45" rx="4" ry="4" width="35%" height="14" />
+
           <Rect x="15" y="95" rx="4" ry="4" width="90%" height="14" />
-          <Rect x="15" y="115" rx="4" ry="4" width="90%" height="14" />
-          <Rect x="15" y="135" rx="4" ry="4" width="90%" height="14" />
-          <Rect x="15" y="155" rx="4" ry="4" width="90%" height="14" />
+          <Rect x="15" y="115" rx="4" ry="4" width="80%" height="14" />
+          <Rect x="15" y="135" rx="4" ry="4" width="95%" height="14" />
+          <Rect x="15" y="155" rx="4" ry="4" width="70%" height="14" />
+
+          <Circle cx="22" cy="187" r="7" />
+          <Circle cx="41" cy="187" r="7" />
+          <Circle cx="60" cy="187" r="7" />
+          <Rect x="72" y="180" rx="10" ry="10" width="15%" height="14" />
+
+          <Rect x="75%" y="180" rx="10" ry="10" width="20%" height="14" />
         </ContentLoader>
       </View>
 
       <View style={styles.loaderWrapper}>
         <ContentLoader
           speed={2}
-          height={360}
-          viewBox={`0 0 ${width} 360`}
+          height={380}
+          viewBox={`0 0 ${width} 380`}
           backgroundColor="#eae9e7"
           foregroundColor="#f3f3f3"
           style={{ width: "100%" }}
@@ -46,10 +54,17 @@ export default function App() {
           <Rect x="95" y="5" rx="4" ry="4" width="30%" height="14" />
           <Rect x="95" y="25" rx="4" ry="4" width="40%" height="14" />
           <Rect x="95" y="45" rx="4" ry="4" width="35%" height="14" />
+
           <Rect x="0" y="95" rx="0" ry="0" width="100%" height="250" />
+
+          <Circle cx="22" cy="367" r="7" />
+          <Circle cx="41" cy="367" r="7" />
+          <Circle cx="60" cy="367" r="7" />
+          <Rect x="72" y="360" rx="10" ry="10" width="15%" height="14" />
+
+          <Rect x="75%" y="360" rx="10" ry="10" width="20%" height="14" />
         </ContentLoader>
       </View>
-
     </View>
   );
 }
